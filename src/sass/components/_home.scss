@@ -1,0 +1,60 @@
+.AppBar-Icons {
+    float: right;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    padding: 10px 0;
+    i {
+        padding: 0 15px;
+        &:first-child {
+            padding-left: 0;
+        }
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+}
+.Drawer {
+    > div {
+        top: 64px !important;
+    }
+    .Drawer-Avatar-Wrapper {
+        position: relative;
+        > div > div > img {
+            height: 155px;
+        }
+        .Drawer-Avatar {
+            bottom: 0;
+            position: absolute;
+        }
+    }
+}
+
+.columns.card {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.cancelButton {
+    button {
+        background-color: #ADADAD !important;
+    }
+}
+.goButton {
+    button {
+        background-color: #00897b !important;
+    }
+}
+
+.Radio-Group {
+    margin: 30px;
+    .app-bar-title {
+        padding: 0;
+        h4 {
+            color: #424242;
+            font-size: 1rem !important;
+        }
+        p {
+            color: #757575;
+        }
+    }
+}

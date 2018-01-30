@@ -1,0 +1,103 @@
+footer.Login-Footer {
+    bottom: 0;
+    left: 0;
+    padding-bottom: 50px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    figure {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        img {
+            width: 100px;
+        }
+    }
+    .loginDisclaimer {
+        display: inline-block;
+        font-family: Roboto, sans-serif;
+        font-weight: lighter;
+        color: $rm_bg;
+        span {
+            font-style: italic;
+        }
+    }
+}
+.loginWrapper {
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -300px;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    figure {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        img {
+            width: 200px;
+        }
+    }
+    article {
+        p {
+            margin: 0;
+            input {
+                background: transparent;
+                border: 0px solid transparent;
+                border-bottom: 2px solid $rm_ltgray;
+                display: inline-block;
+                margin-top: 0 !important;
+                min-width: 300px;
+                outline: none;
+                padding: 10px 10px 10px 0;
+                &:focus {
+                    border-bottom: 2px solid $rm_blue;
+                }
+            }
+        }
+    }
+}
+.btnWrapper {
+    margin-top: 20px;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 51px;
+    margin-left: 150px;
+    margin-top: 34px;
+    font-weight: lighter;
+}
+.toggleWrapper {
+    display: inline-block;
+    max-width: 256px;
+    margin-top: 20px;
+    min-width: 256px;
+    & label {
+        color: $rm_ltgray !important;
+    }
+}
+.bgLogin {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/sky.png");
+  position: fixed;
+}
+.banner {
+  color:#fff;
+  font-family: Roboto, sans-serif;
+  height: 200px;
+  .subtitle {
+      font-size: 1.2rem;
+      font-weight: 300;
+      letter-spacing: 8px;
+  }
+}
+
+
+
+.bannerSubtitle {
+
+}
+
+.bannerVersion {}

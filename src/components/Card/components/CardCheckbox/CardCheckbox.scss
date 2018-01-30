@@ -1,0 +1,18 @@
+
+.card-checkbox {
+  .card-checkbox-tittle {
+    background-color: $rm_highlights;
+    border-radius: 2px;
+    position: relative;
+    i.fa.fa-ellipsis-v {
+        color: white;
+        font-size: 1.2rem;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+    }
+  }
+  .card-checkbox-content {
+    padding: 25px!important;
+  }
+}

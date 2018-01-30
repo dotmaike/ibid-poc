@@ -1,0 +1,19 @@
+.Session {
+    margin-top: 20px;
+    .Session-Button {
+        text-align: center;
+        margin-top: 35px;
+    }
+    .Session-ItemContent,
+    .Session-ItemContent-Red {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+    .Session-ItemContent-Red,
+    .Session-ItemTitle-Red {
+        color: #B71C1C;
+    }
+    button {
+        background: rgb(0, 137, 123) !important;
+    }
+}

@@ -1,0 +1,119 @@
+.Card-Calendar {
+    > div {
+        padding-bottom: 0 !important;
+    }
+    .Card-Calendar-Header {
+        position: relative;
+        h4 {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 400;
+            margin: 40px 0 0 10px;
+        }
+        span {
+            bottom: 0px;
+            color: white;
+            display: inline-block;
+            font-size: 1.5rem;
+            position: absolute;
+            right: 20px;
+            i.fa.fa-angle-left {
+                margin-right: 12px;
+            }
+            i.fa.fa-angle-right {
+                margin-left: 12px;
+            }
+        }
+    }
+    .Card-Calendar-Wrapper {
+        position: relative;
+        table.Card-Calendar-Table {
+            table-layout: fixed;
+            border-collapse: collapse;
+            height: 250px;
+            width: 100%;
+            tr {
+                td {
+                    border: 1px solid #E0E0E0;
+                    vertical-align: top;
+                    .Number {
+                        color: #D84315;
+                        margin-top: 25px;
+                        font-size: 1.1rem;
+                        font-weight: 700;
+                        line-height: .9rem;
+                        text-align: center;
+                    }
+                    .Day {
+                        color: #9E9E9E;
+                        font-weight: 300;
+                        line-height: 1.1rem;
+                        text-align: center;
+                    }
+                }
+                td.WE {
+                    background: #FAFAFA;
+                }
+            }
+        }
+        .Bid1 {
+            height: 60px;
+            position: absolute;
+            top: 100px;
+            width: 100%;
+            .BidItem {
+                display: inline-block;
+                position: absolute;
+                top: 0;
+                width: (100% / 31);
+                .ItemName {
+                    color: #424242;
+                    font-size: .8rem;
+                }
+            }
+            .BidItem.Bid50 {
+                display: inline-block;
+                .ItemFill {
+                    box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.5);
+                    border-radius: 3px;
+                    background: #E91E63;
+                    display: inline-block;
+                    height: 40px;
+                    width: 50%;
+                }
+            }
+            .BidItem.Bid100 {
+                display: inline-block;
+                .ItemFill {
+                    box-shadow: 0px 2px 9px -1px rgba(0,0,0,0.5);
+                    border-radius: 3px;
+                    background: #4CAF50;
+                    display: inline-block;
+                    height: 40px;
+                    width: 100%;
+                }
+            }
+            .BidItem.Bid50.Pos11 {
+                left: (100% / 31) * 10 ;
+            }
+            .BidItem.Bid50.Pos12 {
+                left: (100% / 31) * 11 ;
+            }
+            .BidItem.Bid100.Pos23 {
+                left: (100% / 31) * 22 ;
+            }
+            .BidItem.Bid100.Pos24 {
+                left: (100% / 31) * 23 ;
+            }
+            .BidItem.Bid100.Pos25 {
+                left: (100% / 31) * 24 ;
+            }
+            .BidItem.Bid100.Pos26 {
+                left: (100% / 31) * 25 ;
+            }
+            .BidItem.Bid100.Pos27 {
+                left: (100% / 31) * 26 ;
+            }
+        }
+    }
+}

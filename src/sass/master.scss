@@ -1,0 +1,27 @@
+/* Utilities */
+@import 'foundation';
+@include foundation-global-styles;
+@include foundation-grid;
+@import 'font-awesome/scss/font-awesome';
+@import 'normalize/normalize';
+
+/* Components (_partials) */
+@import "components/colors";
+@import "components/base";
+@import "components/login";
+@import "components/home";
+@import "../components/Card/components/CardCheckbox/CardCheckbox";
+
+.column.nopadding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.main-container{
+    padding-left: 325px;
+    padding-top: 64px;
+
+    .card-container {
+        margin-top: 25px;
+    }
+}
